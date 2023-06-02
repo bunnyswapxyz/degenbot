@@ -25,6 +25,16 @@ _FACTORY_HASHES = {
         # UniswapV3
         "0x1F98431c8aD98523631AE4a59f267346ea31F984": "0xe34f199b19b2b4f47f68442619d555527d244f78a3297ea89325f843f87b8b54",
     },
+    1116: {
+        # IceCreamSwap
+        "0x9E6d21E759A7A288b80eef94E4737D313D31c13f": "0x58c1b429d0ffdb4407396ae8118c58fed54898473076d0394163ea2198f7c4a3",
+        # ShadowSwap
+        "0x326Ee96748E7DcC04BE1Ef8f4E4F6bdd54048932": "0xcfeb1f8754759f0abe461dd409d6d501fdd73b91a848c483faa6db0faf53c3bd",
+        # LFGSwap
+        "0xA1ADD165AED06D26fC1110b153ae17a5A5ae389e": "0xdb0f48f0e98d76b6a89367d7cac5f1ebde7252c3bda0fd5d20131037aef0d9ac",
+        # ArcherSwap
+        "0xe0b8838e8d73ff1CA193E8cc2bC0Ebf7Cf86F620": "0xa496ce5b8348c4a27befb2616addacbfdd5beaf87f2e951c1f8910fd0d3bf9c0",
+    }
 }
 
 

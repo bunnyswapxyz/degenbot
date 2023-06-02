@@ -34,6 +34,8 @@ class ArbitrageHelperManager(Manager):
         1: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         # Arbitrum (AETH)
         42161: "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        369: "0xA1077a294dDE1B09bB078844df40758a5D0f9a27",
+        1116: "0x40375C92d9FAf44d2f9db9Bd9ba41a3317a2404f"
     }
 
     def __init__(self, chain_id: int):
