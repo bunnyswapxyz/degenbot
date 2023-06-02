@@ -34,6 +34,12 @@ _FACTORY_HASHES = {
         "0xA1ADD165AED06D26fC1110b153ae17a5A5ae389e": "0xdb0f48f0e98d76b6a89367d7cac5f1ebde7252c3bda0fd5d20131037aef0d9ac",
         # ArcherSwap
         "0xe0b8838e8d73ff1CA193E8cc2bC0Ebf7Cf86F620": "0xa496ce5b8348c4a27befb2616addacbfdd5beaf87f2e951c1f8910fd0d3bf9c0",
+    },
+    369: {
+        # BunnySwap
+        "0xC6926298F247384e9dF679969F64ED04202e626E": "0x1d9fb985d7c1e86aa5226087c9dca30a65b77efaedaea8c9b05438cd89d3c17b",
+        # PulseX 
+        "0x1715a3E4A142d8b698131108995174F37aEBA10D": "0x59fffffddd756cba9095128e53f3291a6ba38b21e3df744936e7289326555d62",
     }
 }
 
