@@ -217,7 +217,8 @@ class LiquidityPool:
     # The Brownie contract object cannot be pickled, so remove it and return the state
     def __getstate__(self):
         state = self.__dict__.copy()
-        state["_contract"] = None
+        if self._brownie_contract is not None:
+            state["_brownie_contract"] = None
         return state
 
     def __setstate__(self, state):
@@ -290,9 +291,9 @@ class LiquidityPool:
             override_reserves_token0 = override_state["reserves_token0"]
             override_reserves_token1 = override_state["reserves_token1"]
 
-            logger.info("Overrides applied:")
-            logger.info(f"{override_reserves_token0=}")
-            logger.info(f"{override_reserves_token1=}")
+            logger.debug("Overrides applied:")
+            logger.debug(f"{override_reserves_token0=}")
+            logger.debug(f"{override_reserves_token1=}")
 
         if not (
             (
@@ -404,9 +405,9 @@ class LiquidityPool:
             override_reserves_token0 = override_state["reserves_token0"]
             override_reserves_token1 = override_state["reserves_token1"]
 
-            logger.info("Overrides applied:")
-            logger.info(f"{override_reserves_token0=}")
-            logger.info(f"{override_reserves_token1=}")
+            logger.debug("Overrides applied:")
+            logger.debug(f"{override_reserves_token0=}")
+            logger.debug(f"{override_reserves_token1=}")
 
         if not (
             (
